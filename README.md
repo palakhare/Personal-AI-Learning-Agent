@@ -12,12 +12,12 @@ Learn anytime, anywhere—even with low bandwidth
 It uses Retrieval-Augmented Generation (RAG) to ensure accurate answers derived from the user’s own study material.
 
 ✨ Features
-✅ Upload PDFs, Word docs, or text files
-✅ AI-powered Question Answering with chat-like interaction
-✅ Smart Summaries – concise or detailed based on need
-✅ Automatic Flashcard & Quiz Generation
-✅ Learning Analytics – track weak areas and study patterns
-✅ Offline downloadable notes for low-bandwidth environments
+Upload PDFs, Word docs, or text files
+AI-powered Question Answering with chat-like interaction
+Smart Summaries – concise or detailed based on need
+Automatic Flashcard & Quiz Generation
+Learning Analytics – track weak areas and study patterns
+Offline downloadable notes for low-bandwidth environments
 
 🛠️ Tech Stack
 Layer	Technologies
@@ -27,6 +27,7 @@ AI & NLP	LangChain, OpenAI GPT / Ollama / DeepSeek
 Database	MongoDB (content & chat history), FAISS/Pinecone (vector DB)
 File Handling	PyPDF, python-docx
 Deployment	AWS / Azure / Streamlit / Docker
+
 🏗️ System Architecture
 +-------------------------+
 |        Frontend         |
@@ -80,20 +81,15 @@ Ask a question like:
 Get instant, context-aware answers.
 Generate summaries, flashcards, or quizzes for revision.
 
-🖼️ Screenshots
-Feature	Screenshot
-Upload Notes	(Add image link here)
-AI Q&A	(Add image link here)
-Flashcards	(Add image link here)
+
 🔮 Future Enhancements
-✅ Voice-based Q&A using speech recognition
-✅ Multi-language support (Hindi, Marathi, etc.)
-✅ Adaptive learning recommendations based on progress
-✅ Offline desktop/mobile app using Electron/Flutter
+ Voice-based Q&A using speech recognition
+ Multi-language support (Hindi, Marathi, etc.)
+ Adaptive learning recommendations based on progress
+ Offline desktop/mobile app using Electron/Flutter
 
 📜 License
-This project is licensed under the MIT License
-Feel free to use, modify, and distribute with proper credit.
+This project is licensed under the MIT License so feel free to use, modify, and distribute with proper credit.
 
 💡 Author
 
